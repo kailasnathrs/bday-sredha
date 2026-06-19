@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>For Sredha ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<audio id="birthdayMusic" loop>
+    <source src="music.mp3.mp3" type="audio/mpeg">
+</audio>
+
+<div class="particles"></div>
+
+<!-- OPENING -->
+
+<section id="questionPage" class="hero-screen">
+
+    <div class="glass-card">
+
+        <div class="crown">👑</div>
+
+        <h1>
+            Do You Want To See<br>
+            What I Made For You?
+        </h1>
+
+        <p>
+            Something special is waiting...
+        </p>
+
+        <div class="btn-group">
+
+            <button id="yesBtn" onclick="showYesMessage()">
+                Yes ❤️
+            </button>
+
+            <button id="noBtn">
+                No 🙈
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- YES PAGE -->
+
+<section id="yesPage" class="hero-screen hidden">
+
+    <div class="glass-card">
+
+        <h1>💖 I Knew You Would Say Yes 💖</h1>
+
+        <p class="romantic-text">
+
+            Somehow I already knew your answer.
+
+            Because a heart as beautiful as yours
+            could never ignore something made
+            with love and care ❤️
+
+            Now let me show you something special.
+
+        </p>
+
+        <button class="continue-btn"
+                onclick="showGallery()">
+
+            Continue ✨
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- MAIN CONTENT -->
+
+<div id="mainContent" class="hidden">
+
+<section class="main-hero">
+
+    <h1>Happy Birthday Sredha ❤️</h1>
+
+    <p>
+        A small surprise made especially for you
+    </p>
+
+</section>
+
+<section class="gallery-section">
+
+    <h2>Beautiful Memories ✨</h2>
+
+    <div class="gallery">
+
+        <div class="photo-card">
+
+            <img src="sredha1.jpg.jpeg">
+
+        </div>
+
+        <div class="photo-card">
+
+            <img src="sredha2.jpg.jpeg">
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="surprise-section">
+
+    <div class="glass-card">
+
+        <h2>🌹 One More Surprise 🌹</h2>
+
+        <p>
+            Click the envelope below
+        </p>
+
+        <div class="envelope-container">
+
+            <div class="envelope-wrapper"
+                 onclick="openLetter()">
+
+                <div class="envelope">
+
+                    💌
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="letterCard"
+         class="letter-card hidden">
+
+    <div class="letter-paper">
+
+        <h2>💖 Dear Sredha 💖</h2>
+
+        <p id="typing"></p>
+
+    </div>
+
+</section>
+
+<footer>
+
+    Made With ❤️ Especially For Sredha
+
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
